@@ -21,13 +21,10 @@ margin-left:2.8%;
 margin-top:2.8%;
 }
 
-<<<<<<< HEAD
 .login{
 text-align: center;
 }
 
-=======
->>>>>>> origin/master
 .lampe {
 display:flex;
 }
@@ -36,6 +33,7 @@ display:flex;
 width:50%;
 height:310px;
 text-align:center;
+
 }
 
 .lampe2{
@@ -114,7 +112,4 @@ label {
     margin: .4rem 0;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master

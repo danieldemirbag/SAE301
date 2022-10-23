@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-<!-- templates/registration/login.html -->
-=======
-<!DOCTYPE html>
-<html lang="en">
-<body>
->>>>>>> origin/master
 {% extends 'base.html' %}
 
 {% block title %}Login{% endblock %}
 
 {% block content %}
-<<<<<<< HEAD
 <h2>Log In</h2>
 <form method="post">
   {% csrf_token %}
@@ -18,15 +10,5 @@
   <button type="submit">Log In</button>
 </form>
 {% endblock %}
-=======
-<h2> Log In </h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Log In
-  </button>
-</form>
-{% endblock %}
-</body>
-</html>
->>>>>>> origin/master
+
+
