@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <title>Title</title>
+=======
+    <title>page home</title>
+>>>>>>> origin/master
 </head>
 <body>
 {% extends 'base.html' %}
@@ -11,9 +15,13 @@
 
 {% block content %}
 {% if user.is_authenticated %}
+<<<<<<< HEAD
   Bienvenue {{ user.username }}!
     <p><a href="projet/index/"> homepage </a></p>
     <p><a href="{% url 'logout' %}">Log Out</a></p>
+=======
+  Hi {{ user.username }}!
+>>>>>>> origin/master
 {% else %}
   <p>You are not logged in</p>
   <a href="{% url 'login' %}">Log In</a>
