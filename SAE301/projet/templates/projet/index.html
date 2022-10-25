@@ -13,10 +13,12 @@
 </div>
 <div class="lampe">
     <div class="lampe1"> Etat de la première lampe
-        <label class="switch">
-  <input type="checkbox">
-  <span class="slider"></span>
-        </label>
+        <div class="boutons">
+            <a href="">On</a>
+        </div>
+        <div class="boutons">
+            <a href="">Off</a>
+        </div>
         <div>
     <label for="subscribeNews">Souhaitez-vous chosir une plage horaire ?</label>
     <input type="checkbox" id="horaire1" name="horaire1n" value="newsletter">
@@ -29,10 +31,12 @@
        min="00:00" max="23:59" required>
     </div>
     <div class="lampe2"> Etat de la deuxieme lampe
-    <label class="switch">
-  <input type="checkbox">
-  <span class="slider"></span>
-    </label>
+        <div class="boutons">
+            <a href="">On</a>
+        </div>
+        <div class="boutons">
+            <a href="">Off</a>
+        </div>
         <div>
     <label for="horaire2">Souhaitez-vous chosir une plage horaire ?</label>
     <input type="checkbox" id="horaire2" name="horaire2n" value="newsletter">
@@ -45,6 +49,7 @@
        min="00:00" max="23:59" required>
     </div>
 </div>
+<script src="/static/js/mqtt.js"></script>
 </body>
 <footer>
     Temperature de la pièce
